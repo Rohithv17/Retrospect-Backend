@@ -55,10 +55,10 @@ public class RoomService implements IRoomService{
 
             roomEntity.setRoomName(updatedRoomEntity.getRoomName());
             roomEntity.setRoomDescription(updatedRoomEntity.getRoomDescription());
-            roomEntity.setRoomType(updatedRoomEntity.getRoomType());
+            roomEntity.setRoomStartDate(updatedRoomEntity.getRoomStartDate());
             roomEntity.setRoomStatus(updatedRoomEntity.getRoomStatus());
-            roomEntity.setCreatedBy(updatedRoomEntity.getCreatedBy());
-
+            roomEntity.setRoomEndDate(updatedRoomEntity.getRoomEndDate());
+            roomEntity.setRoomImage(updatedRoomEntity.getRoomImage());
 
             return iRoomRepository.save(roomEntity);
         }

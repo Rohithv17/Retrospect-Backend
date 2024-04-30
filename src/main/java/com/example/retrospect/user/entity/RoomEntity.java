@@ -18,13 +18,14 @@ public class RoomEntity {
     @Column
     private String roomDescription;
     @Column
-    private String roomType;
-    @Column
     private String roomStatus;
     @Column
-    private String createdBy;
+    private String roomStartDate;
+    @Column
+    private String roomEndDate;
     @Column
     private String roomImage;
+
 
 
 }
